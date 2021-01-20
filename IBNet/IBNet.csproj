@@ -5,11 +5,13 @@
     <LangVersion>8</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
+    <PackageReference Include="Enumeration.dll" Version="2.0.3" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Common\Ztg.Common\Common.csproj" />
-    <ProjectReference Include="..\..\tws-api\source\csharpclient\client\CSharpAPI.csproj" />
+    <ProjectReference Include="..\..\..\..\..\..\TWS API\source\CSharpClient\client\CSharpAPI.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
 </Project>

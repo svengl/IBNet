@@ -1,5 +1,5 @@
 ﻿using System;
-using Ztg.Common.DataStructures.Enums;
+using Headspring;
 
 namespace IBNet.Enums
 {

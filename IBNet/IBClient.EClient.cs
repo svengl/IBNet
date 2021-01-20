@@ -254,7 +254,7 @@ namespace IBNet
             if (genericTickList != null)
             {
                 foreach (GenericTickType t in genericTickList)
-                    genList.AppendFormat("{0},", t.Name);
+                    genList.AppendFormat("{0},", t.DisplayName);
             }
 
             lock (this)

@@ -44,7 +44,12 @@ namespace IBNet
                 action(state);
         }
 
-        private GeneralTracer        ibTrace = new GeneralTracer("ibInfo", "Interactive Brokers Parameter Info");
+    public void tickOptionComputation(int tickerId, int field, double impliedVolatility, double delta, double optPrice, double pvDividend, double gamma, double vega, double theta, double undPrice)
+    {
+      throw new NotImplementedException();
+    }
+
+    private GeneralTracer        ibTrace = new GeneralTracer("ibInfo", "Interactive Brokers Parameter Info");
         private EReaderMonitorSignal _signal = new EReaderMonitorSignal();
         private Thread               _messageDispatchThread;
     }
